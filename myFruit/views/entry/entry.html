@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>录入系统</title>
+		<link rel="stylesheet" type="text/css" href="/entry/entry.css"/>
+	</head>
+	<body>
+		<div id="wrap">
+			<h1>录入</h1>
+			商品图片：<input type="text" id="img"/>
+			商品名称：<input type="text" id="goodsName"/>
+			商品价格：<input type="text" id="price"/>
+			商品种类：<select name="" id="sel">
+				<option value="s1">冰箱</option>
+				<option value="s2">电脑</option>
+				<option value="s3">手机</option>
+			</select>
+			<button type="button" id="addPost">添加</button>
+			<span id="prompt"></span>
+			<img src="/img/jz.jpg"/>
+			<table border="1" id="tab">
+				<thead>
+				<tr>
+					<th>图片</th>
+					<th>简介</th>
+					<th>价格</th>
+					<th>种类</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody>
+				<!--<tr>
+					<td><img src="img/bx1.jpg"/></td>
+					<td>1</td>
+					<td>1</td>
+					<td>1</td>
+					<td>
+						<a onclick=delData()>删除</a>
+						<a onclick=upd()>修改</a>
+					</td>
+				</tr>-->
+				</tbody>
+			</table>
+		</div>
+	</body>
+	<script src="/jquery/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/entry/entry.js" type="text/javascript" charset="utf-8"></script>
+</html>
